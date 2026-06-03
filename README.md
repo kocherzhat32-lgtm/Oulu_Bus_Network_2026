@@ -1,46 +1,123 @@
 # Oulu Bus Network 2026 — GTFS SQL Analysis
 
-This project explores the Oulu public transport GTFS dataset using SQL.  
-The goal is to understand routes, stops, trips, service days, and general patterns in the bus network.
+This project analyzes the Oulu public transport network using GTFS data and SQL.  
+The goal is to understand route structure, stop usage, trip frequency, weekday service patterns, and overall network behavior.
 
-## Project Structure
+This is a self‑initiated portfolio project created as part of the Google Data Analytics Professional Certificate.
 
-- **sql/**
-  - **01_exploration/** — basic data checks and previews
-  - **02_joins/** — combining GTFS tables
-  - **03_summary/** — summary statistics
-  - **04_trends/** — trends and patterns
-  - **05_tables/** — created tables (BigQuery)
-- **visuals/** — charts and plots (to be added)
-- **docs/** — notes and explanations (optional)
+---
 
-## Data Source
+## 📁 Project Structure
 
-The data comes from the GTFS feed of Oulu (Waltti).  
-It includes the standard GTFS tables:
+Oulu_Bus_Network_2026/
+│
+├── data_raw/          # Original GTFS ZIP (Waltti)
+│   └── 229.zip
+│
+├── data_clean/        # Cleaned CSV files used for visualizations
+│   ├── longest_routes.csv
+│   ├── peak_hours.csv
+│   ├── services_by_weekday.csv
+│   ├── top_stops.csv
+│   └── trips_per_route.csv
+│
+├── sql/
+│   ├── 01_exploration/
+│   ├── 02_joins/
+│   ├── 03_summary/
+│   ├── 04_trends/
+│   └── 05_tables/
+│
+├── visuals/           # Tableau PNG charts
+│   ├── Peak Hours of Bus Activity.png
+│   ├── Trips per Route (Q1 2026).png
+│   ├── Longest Routes by Number of Stops.png
+│   ├── Top 20 Most Popular Stops.png
+│   └── Services by Weekday.png
+│
+├── docs/
+│   └── case_study_full_report.pdf
+│
+└── README.md
+
+
+---
+
+## 📊 Data Source
+
+The dataset comes from the **Waltti Open Data** portal:  
+https://opendata.waltti.fi/docs
+
+GTFS files used:
+
 - routes  
 - trips  
 - stops  
 - stop_times  
 - calendar  
 - calendar_dates  
+- shapes  
+- fare_attributes  
+- fare_rules  
 
-## What This Project Includes
+The dataset contains no personal or sensitive information.
+
+---
+
+## 🧠 What This Project Includes
 
 - SQL exploration of GTFS tables  
 - Counting routes, stops, trips  
-- Joining tables to analyze routes and stop coverage  
-- Finding the longest routes  
+- Joining tables to analyze route–stop relationships  
+- Identifying the longest routes  
 - Peak hours analysis  
-- Service activity by weekday  
+- Weekday service comparison  
 - Creating summary tables in BigQuery  
+- Tableau visualizations (PNG)
 
-## Tools Used
+---
+
+## 📈 Key Insights
+
+- **Monday** has the highest service level; all other days are identical  
+- Peak hours occur between **08:00–17:00**  
+- A small number of routes carry most of the activity  
+- Several stops act as major hubs  
+- Late‑night trips exist due to GTFS extended hours (24–28)
+
+---
+
+## 🛠 Tools Used
 
 - Google BigQuery  
 - SQL  
+- Tableau  
+- Excel  
 - GitHub  
 
-## Author
+---
 
-Oksana — Data Analyst student at OAMK.
+## 🖼 Visualizations (PNG)
+
+All charts are available in the `/visuals/` folder:
+
+- Peak Hours of Bus Activity  
+- Trips per Route (Q1 2026)  
+- Longest Routes by Number of Stops  
+- Top 20 Most Popular Stops  
+- Services by Weekday  
+
+---
+
+## 📘 Full Case Study Report
+
+A detailed report following the Google Data Analytics framework (Ask → Prepare → Process → Analyze → Share → Act):
+
+👉 `docs/case_study_full_report.pdf`
+
+---
+
+## 👩‍💻 Author
+
+**Oksana Kocherzhat**  
+Junior Data Analyst | OAMK Student  
