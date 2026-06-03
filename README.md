@@ -11,15 +11,18 @@ This is a self‑initiated portfolio project created as part of the Google Data 
 
 Oulu_Bus_Network_2026/
 │
-├── data_raw/          # Original GTFS ZIP (Waltti)
-│   └── 229.zip
-│
-├── data_clean/        # Cleaned CSV files used for visualizations
+├── data_clean/
 │   ├── longest_routes.csv
 │   ├── peak_hours.csv
 │   ├── services_by_weekday.csv
 │   ├── top_stops.csv
 │   └── trips_per_route.csv
+│
+├── data_raw/
+│   └── 229.zip
+│
+├── docs/
+│   └── case_study_full_report.pdf
 │
 ├── sql/
 │   ├── 01_exploration/
@@ -28,17 +31,15 @@ Oulu_Bus_Network_2026/
 │   ├── 04_trends/
 │   └── 05_tables/
 │
-├── visuals/           # Tableau PNG charts
-│   ├── Peak Hours of Bus Activity.png
-│   ├── Trips per Route (Q1 2026).png
+├── visuals/
 │   ├── Longest Routes by Number of Stops.png
+│   ├── Peak Hours of Bus Activity.png
+│   ├── Services by Weekday.png
 │   ├── Top 20 Most Popular Stops.png
-│   └── Services by Weekday.png
-│
-├── docs/
-│   └── case_study_full_report.pdf
+│   └── Trips per Route (Q1 2026).png
 │
 └── README.md
+
 
 
 ---
