@@ -9,38 +9,35 @@ This is a self‑initiated portfolio project created as part of the Google Data 
 
 PROJECT STRUCTURE
 
-Oulu_Bus_Network_2026/
-│
-├── data_clean/
-│   ├── longest_routes.csv
-│   ├── peak_hours.csv
-│   ├── services_by_weekday.csv
-│   ├── top_stops.csv
-│   └── trips_per_route.csv
-│
-├── data_raw/
-│   └── 229.zip
-│
-├── docs/
-│   └── case_study_full_report.pdf
-│
-├── sql/
-│   ├── 01_exploration/
-│   ├── 02_joins/
-│   ├── 03_summary/
-│   ├── 04_trends/
-│   └── 05_tables/
-│
-├── visuals/
-│   ├── Longest Routes by Number of Stops.png
-│   ├── Peak Hours of Bus Activity.png
-│   ├── Services by Weekday.png
-│   ├── Top 20 Most Popular Stops.png
-│   └── Trips per Route (Q1 2026).png
-│
-└── README.md
+Oulu_Bus_Network_2026
+- data_clean
+  - longest_routes.csv
+  - peak_hours.csv
+  - services_by_weekday.csv
+  - top_stops.csv
+  - trips_per_route.csv
 
+- data_raw
+  - 229.zip
 
+- docs
+  - case_study_full_report.pdf
+
+- sql
+  - 01_exploration
+  - 02_joins
+  - 03_summary
+  - 04_trends
+  - 05_tables
+
+- visuals
+  - Longest Routes by Number of Stops.png
+  - Peak Hours of Bus Activity.png
+  - Services by Weekday.png
+  - Top 20 Most Popular Stops.png
+  - Trips per Route (Q1 2026).png
+
+- README.md
 
 
 ---
