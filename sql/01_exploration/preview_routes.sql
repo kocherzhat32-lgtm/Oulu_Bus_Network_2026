@@ -1,0 +1,3 @@
+SELECT * 
+FROM `coherent-lock-498314-v2.gtfs_oulu.routes`
+LIMIT 20;
