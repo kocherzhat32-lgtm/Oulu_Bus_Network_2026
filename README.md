@@ -1,13 +1,13 @@
 # Oulu Bus Network 2026 — GTFS SQL Analysis
 
-This project analyzes the Oulu public transport network using GTFS data and SQL.  
+This project analyzes the Oulu public transport network using GTFS data and SQL.
 The goal is to understand route structure, stop usage, trip frequency, weekday service patterns, and overall network behavior.
 
 This is a self‑initiated portfolio project created as part of the Google Data Analytics Professional Certificate.
 
----
+--------------------------------------------------------------------------------
 
-## 📁 Project Structure
+PROJECT STRUCTURE
 
 Oulu_Bus_Network_2026/
 │
